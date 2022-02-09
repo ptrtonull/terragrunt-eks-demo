@@ -1,0 +1,10 @@
+.terraform
+.vscode
+.idea
+*.tfstate
+*.tfstate.backup
+*.out
+.terragrunt-cache
+.terraform.lock.hcl
+.bundle
+terragrunt-debug.tfvars.json
