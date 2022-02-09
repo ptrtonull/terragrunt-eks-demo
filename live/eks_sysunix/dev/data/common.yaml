@@ -1,0 +1,9 @@
+---
+aws_env: 'dev'
+aws_profile: 'eks_sysunix'
+
+tf_modules:
+  eks-vpc:
+    source: "git::https://github.com/terraform-aws-modules/terraform-aws-vpc.git?ref=v3.0.0"
+  eks-eks_cluster:
+    source: "git::https://github.com/terraform-aws-modules/terraform-aws-eks.git?ref=v17.24.0"
